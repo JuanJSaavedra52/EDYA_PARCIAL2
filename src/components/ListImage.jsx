@@ -4,6 +4,7 @@ import styles from '../styles/Lista.module.css'
 export const ListImage = () => {
     return (
         <div>
+            <p className={styles.p}>Imagenes:</p>
             <li className={styles.li}>
                 <span>
                     <GetImagenes />
