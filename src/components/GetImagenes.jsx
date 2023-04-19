@@ -14,7 +14,7 @@ export const GetImagenes = () => {
     return (
         <>
             <div>
-                {data.map(item => (<p key={item.id}><img src={item.url} alt={item.title}/></p>))}
+                {data.map(item => (<img src={item.url} alt={item.title}/>))}
             </div>
         </>
     )
