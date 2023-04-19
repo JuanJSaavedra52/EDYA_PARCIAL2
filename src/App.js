@@ -1,12 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.css';
+import { GetImagenes } from './components/GetImagenes';
+import { ListImage } from './components/ListImage';
 
-function App() {
+export const App = () => {
   return (
     <>
-      <h1>Parcial 2</h1>
+      <h1 className="cosa">Parcial 2</h1>
+      <ListImage />
     </>
   );
 }
-
-export default App;
